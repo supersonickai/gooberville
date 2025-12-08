@@ -1,3 +1,2 @@
-<script>
+
   window.location.href = 'https://google.com';
-</script>
