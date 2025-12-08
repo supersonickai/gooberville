@@ -1,2 +1,6 @@
-
-  window.location.href = 'https://google.com';
+<script>
+  const slope = document.getElementById('slope");
+                                        slope.addEventListener('Click', Function() {
+                                                               window.open('https://google.com', '_blank');
+});
+</script>
