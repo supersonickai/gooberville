@@ -34,4 +34,12 @@
 .start-button:hover {
   animation: pulse 0.8s infinite alternate;
 }
+
+.start-button:hover {
+  transform: rotate(15deg) infinite alternate;
+}
+
+.start-button {
+  transition: transform 0.3 ease-in-out;
+}
   
