@@ -12,6 +12,21 @@
   }
 }
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  33.3% {
+    transform: rotate(15deg);
+  }
+  66.7% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-15deg);
+  }
+}
+
 
 /* decorations */
 .start-button {
@@ -33,13 +48,10 @@
 /* animations */
 .start-button:hover {
   animation: pulse 0.8s infinite alternate;
-}
-
-.start-button:hover {
-  transform: rotate(15deg) infinite alternate;
+  animation: rotate 0.8s infinite alternate;
 }
 
 .start-button {
-  transition: transform 0.3 ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
   
