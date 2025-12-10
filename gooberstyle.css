@@ -100,7 +100,7 @@
 
 /* animations */
 .start-button:hover {
-  animation: intro 0.4s, rotate 2s infinite alternate;
+  animation: intro 0.4s, rotate 2s ease-in infinite alternate;
 }
 
 .start-button {
