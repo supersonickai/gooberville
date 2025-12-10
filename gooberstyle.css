@@ -1,0 +1,37 @@
+
+/* rules */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1.4);
+  }
+}
+
+
+/* decorations */
+.start-button {
+  background-color: #69A7FF;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 4px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+}
+
+
+/* animations */
+.start-button:hover {
+  animation: pulse 0.8s infinite alternate;
+}
+  
