@@ -35,7 +35,7 @@
 
 /* animations */
 .start-button:hover {
-  animation: pulse 0.4s ease-in-out infinite alternate;
+  animation: pulse 0.4s cubic-bezier(0.25,0.1,0.25,1) infinite alternate;
 }
 
 .start-button {
