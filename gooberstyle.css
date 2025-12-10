@@ -9,6 +9,7 @@
   }
   66.7% {
     transform: scale(1.2) rotate(0deg);
+  }
   100% {
     transform: scale(1.25) rotate(-5deg);
   }
@@ -34,8 +35,7 @@
 
 /* animations */
 .start-button:hover {
-  animation: pulse 0.8s infinite alternate ease-in-out;
-  animation: rotate 0.8s infinite alternate ease-in-out;
+  animation: pulse 0.8s ease-in-out infinite alternate;
 }
 
 .start-button {
