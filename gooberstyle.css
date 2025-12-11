@@ -88,6 +88,12 @@
   transition-duration: 0.5s;
   margin-top: 800px;
 }
+body {
+  background-image: url("images/Gooberville background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 
 /* animations */
