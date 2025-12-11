@@ -88,6 +88,10 @@
   transition-duration: 0.5s;
   margin-top: 800px;
 }
+
+.start-button-container {
+  text-align: center;
+}
 body {
   background-image: url("images/Gooberville background.png");
   background-repeat: no-repeat;
