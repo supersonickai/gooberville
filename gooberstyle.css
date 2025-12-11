@@ -92,6 +92,10 @@
 .start-button-container {
   text-align: center;
 }
+
+.title_m {
+  scale: 100px 200px;
+}
 body {
   background-image: url("images/Gooberville background.png");
   background-repeat: no-repeat;
