@@ -94,7 +94,7 @@
 }
 
 .title_m {
-  scale: 100px 200px;
+  scale: .5;
 }
 body {
   background-image: url("images/Gooberville background.png");
