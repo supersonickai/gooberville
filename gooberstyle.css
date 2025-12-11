@@ -95,8 +95,8 @@
 
 .title_m {
   scale: .5;
-  text-align: center;
-  margin-top: -100px;
+  display: flex;
+  height: 400px;
 }
 body {
   background-image: url("images/Gooberville background.png");
