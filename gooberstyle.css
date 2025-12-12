@@ -38,23 +38,24 @@
 .start-button-container {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin: 0;
 }
 
 .whole-screen {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 200px;
   justify-content: flex-start;
+  height: 100vh;
+  padding-top: 30px;
+  gap: 10px;
 }
 
 .title_m {
-  transform: scale(.5);
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-  margin-bottom: -50px;
+  display: box;
+  height: auto;
+  width: 50%;
+  margin: 0;
 }
 
 body {
