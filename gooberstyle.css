@@ -33,12 +33,14 @@
   border-radius: 6px;
   transition-duration: 0.5s;
   margin-top: 600px;
+  width: 100%;
 }
 
 .start-button-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 20%;
 }
 
 .title_m {
