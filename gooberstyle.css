@@ -38,7 +38,7 @@
 .start-button-container {
   display: flex;
   justify-content: center;
-  margin-top: 25px;
+  margin-top: -25px;
 }
 
 .whole-screen {
