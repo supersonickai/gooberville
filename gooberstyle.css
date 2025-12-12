@@ -51,7 +51,6 @@
   transform: scale(.5);
   display: flex;
   justify-content: center;
-  order: 1;
 }
 
 body {
