@@ -43,7 +43,7 @@
 }
 
 .title_m {
-  scale: .5;
+  transform: scale(.5);
   display: flex;
   justify-content: center;
   order: 1;
