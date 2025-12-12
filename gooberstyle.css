@@ -19,7 +19,7 @@
 }
 
 /* decorations */
-.start-button {
+.start-button-container {
   background-color: #f0f6ff;
   color: black;
   padding: 15px 30px;
@@ -36,7 +36,7 @@
   width: 100%;
 }
 
-.start-button-container {
+.whole-screen {
   display: flex;
   justify-content: center;
   flex-direction: column;
