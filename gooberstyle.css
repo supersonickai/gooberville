@@ -19,7 +19,7 @@
 }
 
 /* decorations */
-.start-button-container {
+.start-button {
   background-color: #f0f6ff;
   color: black;
   padding: 15px 30px;
@@ -32,8 +32,13 @@
   border: 3px double black;
   border-radius: 6px;
   transition-duration: 0.5s;
-  margin-top: 600px;
-  width: 100%;
+  width: 250px;
+}
+
+.start-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
 }
 
 .whole-screen {
@@ -47,11 +52,6 @@
   display: flex;
   justify-content: center;
   order: 1;
-}
-
-.start-button {
-  display: block;
-  width: 100%;
 }
 
 body {
