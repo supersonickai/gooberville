@@ -29,11 +29,11 @@
   font-size: 15px;
   margin: 2px 4px;
   cursor: pointer;
-  border: double;
+  border: 3px double black;
   border-radius: 6px;
   transition-duration: 0.5s;
   margin-top: 600px;
-  width: 20%;
+  width: 100%;
 }
 
 .start-button-container {
