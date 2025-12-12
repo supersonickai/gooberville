@@ -1,15 +1,23 @@
+
 .code-box {
   display: flex;
-  text-align: center;
+  align-items: center;
   margin-top: 500px;
   padding: 10px 5px;
   width: 60px;
   height: 40px;
   border-radius: 8px;
 }
+
 body {
   background-image: url("images/Gooberville background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }  
+
+.exit-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
